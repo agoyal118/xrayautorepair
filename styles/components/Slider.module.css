@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 10em;
+}
+
+.patient_info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.star {
+  font-size: 1rem;
+  color: #ff9800;
+  fill: #ff9800;
+  border: #ff9800;
+}

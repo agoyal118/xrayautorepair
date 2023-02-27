@@ -1,0 +1,32 @@
+.container_review {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_rating_star {
+  font-size: 60px;
+  font-weight: 300;
+  margin-right: 20px;
+  color: #ff9800;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #ff9800;
+  fill: #ff9800;
+  border: #ff9800;
+}
+
+@media (min-width: 600px) {
+  .star {
+    font-size: 2rem;
+  }
+}
+
+.container_stars {
+  display: flex;
+  flex-direction: column;
+}

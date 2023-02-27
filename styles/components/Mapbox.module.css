@@ -1,0 +1,10 @@
+.map {
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 55vh;
+  border-radius: 15px;
+}

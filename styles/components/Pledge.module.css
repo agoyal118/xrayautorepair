@@ -1,0 +1,61 @@
+.pledge {
+  width: 95vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.title_pledge {
+  margin-top: 200px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.container_office {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container_office > div {
+  margin: 25px;
+}
+
+.container_pictures {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.promise_text {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.icon {
+  background: linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #dedede 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #a1a1a1
+  );
+  border-radius: 50%;
+  vertical-align: sub;
+}

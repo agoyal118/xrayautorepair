@@ -1,0 +1,14 @@
+.not_found {
+  text-align: center;
+}
+
+.link_button {
+  display: block;
+  width: 180px;
+  padding: 12px 8px;
+  background: #f3d502;
+  border-radius: 4px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+
+.Navbar {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+.Logobar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 0 20px 0;
+  margin: 0 10px 0 10px;
+}
+
+.Logobar a {
+  position: relative;
+}
+
+.Logobar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.Logobar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.logo a {
+  color: rgba(239, 131, 0, 255);
+}
+
+.tagline {
+  color: rgba(4, 107, 179, 255);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  text-align: center;
+  font-family: "Hind+Siliguri";
+}
+
+.location {
+  text-align: center;
+}
+
+.location a {
+  color: rgba(239, 131, 0, 255);
+  font-size: 28px;
+  font-weight: 300;
+  align-content: center;
+}
+
+.Menubar {
+  padding: 0 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+  max-width: 1200px;
+  margin: 0 auto 5px;
+  gap: 2rem;
+}
+
+.Menubar a {
+  position: relative;
+}
+
+.Menubar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.Menubar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.book {
+  display: block;
+  width: 120px;
+  padding: 8px 0;
+  color: #f3d502;
+  background: black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}

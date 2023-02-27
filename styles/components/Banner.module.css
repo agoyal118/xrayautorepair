@@ -1,0 +1,35 @@
+.background {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+  backdrop-filter: saturate(120%) blur(5px);
+  -webkit-backdrop-filter: saturate(120%) blur(5px);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+}
+
+.location {
+  color: white;
+}
+
+.contact {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .location {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .grand {
+    display: none;
+  }
+
+  .background {
+    display: none;
+  }
+}

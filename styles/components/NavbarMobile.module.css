@@ -1,0 +1,171 @@
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.top_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-family: "Helvetica";
+}
+
+.top_bar a {
+  position: relative;
+}
+
+.hamburger_bar {
+  margin-right: 2em;
+}
+
+.logo {
+  margin-left: 1em;
+}
+
+.tagline {
+  color: rgba(4, 107, 179, 255);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: "Hind+Siliguri";
+}
+
+.bottom_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.bottom_bar > * {
+  flex-basis: 100%;
+}
+
+.bottom_bar a {
+  position: relative;
+}
+
+.emergency_btn {
+  display: block;
+  padding: 15px 25px;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 30px;
+  border: 1.5px solid #a1a1a1;
+  color: rgba(0, 0, 0, 1);
+
+  background: linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #dedede 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #a1a1a1
+  );
+  box-shadow: 2px 2px 0.5em rgba(122, 55, 34, 0.55),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.book_btn {
+  display: block;
+  padding: 15px 25px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  border: 1.5px solid #a1a1a1;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  background: linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #dedede 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #a1a1a1
+  );
+  box-shadow: 2px 2px 0.5em rgba(122, 55, 34, 0.55),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.emergency_btn:hover {
+  background: linear-gradient(
+    to right,
+    rgba(191, 149, 63, 0.6),
+    rgba(252, 246, 186, 0.5),
+    rgba(179, 135, 40, 0.5),
+    rgba(251, 245, 183, 0.5),
+    rgba(170, 119, 28, 0.4)
+  );
+}
+
+.book_btn:hover {
+  background: linear-gradient(
+    to right,
+    rgba(191, 149, 63, 0.6),
+    rgba(252, 246, 186, 0.5),
+    rgba(179, 135, 40, 0.5),
+    rgba(251, 245, 183, 0.5),
+    rgba(170, 119, 28, 0.4)
+  );
+}
+
+.navMenuInactive {
+  position: fixed;
+  background: linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,
+    #dedede 21%,
+    #ffffff 24%,
+    #dedede 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #dedede 72%,
+    #ffffff 80%,
+    #dedede 84%,
+    #a1a1a1
+  );
+  opacity: 0.97;
+  width: 70%;
+  height: 100vh;
+  height: -webkit-fill-available;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translate(var(--translate-x, 100%));
+  transition: 0.5s;
+}
+
+.navMenuActive {
+  --translate-x: 0%;
+}
+
+.nav_link {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

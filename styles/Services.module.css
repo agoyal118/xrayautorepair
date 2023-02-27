@@ -1,0 +1,44 @@
+.main {
+  margin: 0 5px;
+}
+
+.title_services {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.container_services {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container_individual_services {
+  min-width: 0;
+  max-width: 500px;
+}
+
+.container_image_services {
+  max-width: 500px;
+  max-height: 334px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  background: transparent;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+}
+
+.subtitle_services {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.text_services {
+  text-align: center;
+}

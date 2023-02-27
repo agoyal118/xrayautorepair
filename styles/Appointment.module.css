@@ -1,0 +1,10 @@
+.title_appointment {
+  text-align: center;
+}
+
+.container_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4rem 0 0;
+}

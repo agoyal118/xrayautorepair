@@ -1,0 +1,36 @@
+.main_about {
+  padding: 0 10px;
+}
+
+.title_about {
+  text-align: center;
+}
+
+.container_about {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.container_about > * {
+  flex: 1 1 12rem;
+}
+
+.container_image {
+  margin: auto;
+  max-width: 646px;
+  max-height: 432px;
+  width: 90%;
+  display: block;
+  background: transparent;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+}
+
+.text_about {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
