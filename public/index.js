@@ -1,12 +1,12 @@
-import alignment from "./services/alignment.jpg";
-import battery from "./services/battery.jpg";
-import brakes from "./services/brakes.jpg";
-import diagnostic from "./services/diagnostic.jpg";
-import engine from "./services/engine.jpg";
-import exhaust from "./services/exhaust.jpg";
-import oil from "./services/oil.jpg";
-import suspension from "./services/suspension.jpg";
-import tires from "./services/tires.jpg";
+import alignment from "./services/alignment.webp";
+import battery from "./services/battery.webp";
+import brakes from "./services/brakes.webp";
+import diagnostic from "./services/diagnostic.webp";
+import engine from "./services/engine.webp";
+import exhaust from "./services/exhaust.webp";
+import oil from "./services/oil.webp";
+import suspension from "./services/suspension.webp";
+import tires from "./services/tires.webp";
 
 export const alignment_pic = alignment;
 export const battery_pic = battery;
